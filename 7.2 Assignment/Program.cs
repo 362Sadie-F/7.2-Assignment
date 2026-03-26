@@ -28,7 +28,12 @@
             Console.Clear();
 
             //task 2 X & Y
+            Console.WriteLine("\t X ");
+            for (int i = -10; i <=10; i = i +2)
+            {
+                Console.WriteLine("\t" + i + "\t");
 
+            }
 
             //task 3 For Loop Fun
 
