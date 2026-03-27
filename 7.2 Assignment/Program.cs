@@ -32,7 +32,11 @@
             for (int i = -10; i <=10; i = i +2)
             {
                 Console.WriteLine("\t" + i + "\t");
-
+            } 
+            Console.WriteLine("\t Y ");
+            for (int y = -100; y <= 100; y = y + 16)
+            {
+                Console.WriteLine("\t" + y + "\t");
             }
 
             //task 3 For Loop Fun
