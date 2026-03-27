@@ -42,14 +42,17 @@
             //task 3 For Loop Fun
             Console.Write("Please enter your name: ");
             name = Console.ReadLine();
-            for (int n = 1; n <= 10; n = n + 1)
-            {
-                Console.WriteLine(n + ". " + name);
-            }
             if (name == "Aldworth" )
             {
-                
-                Console.WriteLine();
+                for (int n = 1; n <= 5; n = n + 1)
+                {
+                  Console.WriteLine(n + ". " + name);
+                }
+            }
+            else
+            for (int n = 1; n <= 10; n = n + 1)
+            {
+                  Console.WriteLine(n + ". " + name);
             }
 
             Console.WriteLine();
