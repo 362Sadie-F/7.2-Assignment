@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            
+            string name;
 
             Console.Write("Enter your message and I'll type it 5 times: ");
             string message = Console.ReadLine();
@@ -40,8 +40,17 @@
             }
 
             //task 3 For Loop Fun
-
-
+            Console.Write("Please enter your name: ");
+            name = Console.ReadLine();
+            for (int n = 1; n <= 10; n = n + 1)
+            {
+                Console.WriteLine(n + ". " + name);
+            }
+            if (name == "Aldworth" )
+            {
+                
+                Console.WriteLine();
+            }
 
             Console.WriteLine();
         }
